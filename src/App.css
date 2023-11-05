@@ -1,13 +1,58 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
-    background-image: url('https://logodownload.org/wp-content/uploads/2023/04/fifa23-logo-0.png');
-    background-position: ;
+.playerListcontainer {
+  
+  margin-left: 50px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto; 
+  justify-content: space-between;
+}
+.App{
+  background-image: url('https://w0.peakpx.com/wallpaper/312/505/HD-wallpaper-uefa-champions-league-football-stadium.jpg');
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   
 }
-.imageCard{
-  opacity: 0.5;
+
+#cardBody{
+  background-color:rgba(76, 72, 72, 0.008);
+  height: 5rem; 
 }
+#CardContainer{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color:rgba(150, 144, 144, 0.441)
+}
+#cartextcontainer{
+  background-color:rgba(8, 7, 7, 0.117);
+}
+.cardBodycontainer{
+  width:12rem;
+}
+#CardTitle{
+  color:rgb(0, 0, 0) ;
+  font-weight: 1000;
+  font-size: large;
+  text-align: center;
+
+}
+#CardContainer{
+  height: 25rem;
+}
+#imageCard{
+  background-color: rgba(34, 32, 32, 0.316);
+  height: 12rem;
+  width: auto;
+}
+#CardText{
+  color: rgb(3, 2, 2);
+  font-weight: 400;
+  font-weight: bold;
+}
+
+
+
 
 
 

@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const PlayerList=()=>{
     
     return(
-        <div className="container">
-    {players.map((e)=> <Player props={e}/>)} 
+  <div className="playerListcontainer">
+   {players.map((e)=> <Player props={e}/>)} 
   
   </div> ) 
 }

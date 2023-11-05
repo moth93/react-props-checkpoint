@@ -3,19 +3,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Player=({props})=>{
 return <>
-
-<Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.Image} className="imageCard" />
-      <Card.Body>
-        <Card.Title>{props.name}</Card.Title>
-        <Card.Text>
+<div className="cardBodycontainer" >
+<Card id="CardContainer" >
+<Card.Title id="CardTitle">{props.name}</Card.Title>
+      <Card.Img variant="top" src={props.Image} id="imageCard" />
+      <Card.Body id="cardBody" >
+        <Card.Text id="CardText" >
             Team: {props.team} <br/>
-            nationality: {props.nationality}
-            jersynumber: {props.jerseynumber}
-            age: {props.age}
+            Nationality: {props.nationality} <br/>
+            Jersynumber: {props.jersynumber} <br/>
+            Age: {props.age} <br/>
         </Card.Text>  
       </Card.Body>
     </Card>
+    </div>
 </>
 }
 export default Player
